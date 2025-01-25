@@ -94,12 +94,48 @@ const MainTool = () => {
           ))}
         </div>
 
-        {/* Additional Configuration */}
-        <textarea
-          className="techniques-textarea"
-          placeholder="Techniques, Theme, Rhyme Structure, etc."
-          rows="6"
-        ></textarea>
+        {/* Text Inputs for Additional Configuration */}
+        <div className="text-inputs">
+          <div className="text-input">
+            <label>Rhyme Structure</label>
+            <input
+              type="text"
+              placeholder="AABB"
+            />
+          </div>
+
+          <div className="text-input">
+            <label>Techniques Required</label>
+            <input
+              type="text"
+              placeholder="Use vivid imagery, metaphor, and emotional tone to evoke a reflective mood."
+            />
+          </div>
+
+          <div className="text-input">
+            <label>Theme/Subject</label>
+            <input
+              type="text"
+              placeholder="A moment of nostalgia or memory triggered by a natural event (e.g., rain, snow, or a storm)."
+            />
+          </div>
+
+          <div className="text-input">
+            <label>Type of Rhymes</label>
+            <input
+              type="text"
+              placeholder="Perfect rhymes for all paired lines (e.g., 'feet' and 'sweet,' 'rain' and 'again')."
+            />
+          </div>
+
+          <div className="text-input">
+            <label>Reference Words for Rhymes</label>
+            <input
+              type="text"
+              placeholder="vez, pies, mantel, cocktail (or words of your choosing that fit the theme)."
+            />
+          </div>
+        </div>
       </div>
 
       {/* Prompt Bar at the Bottom */}
