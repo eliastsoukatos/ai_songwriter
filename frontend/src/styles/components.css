@@ -1,0 +1,31 @@
+/* Dropdown Component */
+.dropdown {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el label y el dropdown */
+    gap: 10px; /* Espacio entre el label y el dropdown */
+    margin-bottom: 15px; /* Espacio entre cada dropdown */
+  }
+  
+  .dropdown label {
+    font-weight: bold;
+    font-size: 14px;
+    white-space: nowrap; /* Evita que el texto del label salte de línea */
+  }
+  
+  .dropdown select {
+    flex: 1; /* Asegura que el dropdown se ajuste proporcionalmente */
+    max-width: 170px; /* Define el ancho máximo del dropdown */
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .dropdown select:focus {
+    border-color: #007bff; /* Azul para el borde en foco */
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Realza el dropdown al seleccionar */
+  }
+  
